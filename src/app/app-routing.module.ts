@@ -9,8 +9,8 @@ const routes: Routes = [
     title: 'Home | AgriBlend ',
   },
   {
-    path: '',
-    redirectTo: '/home',
+    path: 'home',
+    redirectTo: '/',
     pathMatch: 'full',
   },
 ];
