@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/components/header/header.component';
 import { FooterComponent } from './core/components/footer/footer.component';
 import { MiddleComponent } from './core/components/middle/middle.component';
+import { AboutComponent } from './core/components/about/about.component';
+import { ContactComponent } from './core/components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { MiddleComponent } from './core/components/middle/middle.component';
     HeaderComponent,
     FooterComponent,
     MiddleComponent,
+    AboutComponent,
+    ContactComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
